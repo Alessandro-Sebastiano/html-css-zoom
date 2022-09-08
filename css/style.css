@@ -33,11 +33,33 @@ body {
 }
 
 
+#icon-color {
+    color: var(--green);
+}
+
 .container {
     width: 100%;
     height: 100vh;
     background-color: var(--dark);
     position: fixed;
+}
+
+
+
+
+.view {
+    position: absolute;
+    right: 0;
+    top: 8px;
+}
+
+
+
+.view-item {
+    background-color: rgba(101, 112, 125, 1);
+    padding: 3px 6px;
+    margin-right: 5px;
+
 }
 
 
@@ -89,7 +111,8 @@ body {
 
 .input,
 .console,
-.exit {
+.exit,
+.view {
     cursor: pointer;
 }
 
