@@ -45,12 +45,16 @@ body {
 
 .cards-box {
     width: 90%;
+    height: 80%;
     margin: 40px auto;
+    flex-wrap: wrap;
 }
 
 
 .card {
-    width: calc(100% / 7);
+    width: calc((100% - 35px) / 7);
+    margin-right: 5px;
+    margin-bottom: 5px;
 }
 
 
