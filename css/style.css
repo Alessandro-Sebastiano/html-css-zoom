@@ -96,8 +96,14 @@ body {
 
 .icon-box {
     text-align: center;
-    margin-right: 15px;
-    margin-left: 10px;
+    margin-right: 5px;
+    padding: 5px 12px;
+    border-radius: 3px;
+}
+
+
+.icon-box:hover {
+    background-color: rgba(101, 112, 125, 0.4);
 }
 
 
