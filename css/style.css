@@ -52,7 +52,7 @@ body {
 .view {
     position: absolute;
     right: 0;
-    top: 8px;
+    top: 12px;
 }
 
 
@@ -61,7 +61,7 @@ body {
     background-color: rgba(101, 112, 125, 1);
     padding: 3px 6px;
     margin-right: 5px;
-
+    border-radius: 4px;
 }
 
 
@@ -69,14 +69,22 @@ body {
 /*cards*/
 .cards-box {
     width: 90%;
+    height: calc(100% - 60px);
     margin: 0 auto;
     padding: 95px 0;
     flex-wrap: wrap;
+    overflow: auto;
+}
+
+
+.cards-box::-webkit-scrollbar {
+    display: none;
 }
 
 
 .card {
     width: calc((100% - 35px) / 7);
+    min-width: 158px;
     margin-right: 5px;
     margin-bottom: 12px;
     position: relative;
@@ -121,11 +129,15 @@ body {
     cursor: pointer;
 }
 
+
+.input {}
+
+
 /*icon-container*/
 .icon-box {
     text-align: center;
-    margin-right: 5px;
-    padding: 5px 12px;
+    margin: 0 10px;
+    padding: 5px 8px;
     border-radius: 3px;
 }
 
@@ -138,7 +150,7 @@ body {
 /*icon-style*/
 .control {
     float: left;
-    margin-right: 5px;
+    margin-right: 6px;
 }
 
 
@@ -159,6 +171,7 @@ body {
     right: 0;
     transform: translateY(-50%);
 }
+
 
 
 /*exit-button*/
