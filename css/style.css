@@ -69,7 +69,7 @@ body {
 /*cards*/
 .cards-box {
     width: 90%;
-    height: calc(100% - 60px);
+    height: calc(100vh - 60px);
     margin: 0 auto;
     padding: 95px 0;
     flex-wrap: wrap;
@@ -85,6 +85,7 @@ body {
 .card {
     width: calc((100% - 35px) / 7);
     min-width: 158px;
+    max-height: 138px;
     margin-right: 5px;
     margin-bottom: 12px;
     position: relative;
@@ -100,7 +101,7 @@ body {
 
 
 .overlay {
-    font-size: 1vw;
+    font-size: 14px;
     background-color: rgba(101, 112, 125, 0.4);
     position: absolute;
     bottom: 0;
